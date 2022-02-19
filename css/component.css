@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+  background-color: beige;
+  background-image: url('/images/blue-euclidean-vector-big-waves-blue-lines-background-8fb935eae89d531bc797452e31647189.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+}
+
+header {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: brown;
+  cursor: pointer;
+}
+
+nav {
+  /* background-image: url('/');
+  background-color: darkkhaki; */
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 100px 30px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0px 30px;
+}
+
+#back-img {
+  position: absolute;
+  background-image: url('/images/abstract-wave-background_G1nIYOR__SB_PM.jpg');
+  /* background-color: cornflowerblue; */
+  background-size: 100% 100%;
+  width: 92%;
+  height: 350px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 25px;
+  z-index: -1;
+}
+
+.page {
+  display: block;
+  width: 100%;
+  padding: 35px 0;
+  text-align: center;
+  margin: auto;
+  align-items: center;
+}
+
+#grid {
+  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.item {
+  background-color: honeydew;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: 220px;
+  margin: 15px auto;
+}
+
+#wrapper {
+  border-radius: 25px;
+}
+
+#wrapper img {
+  width: 170px;
+  height: 180px;
+  padding: 25px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  display: inline-block;
+  margin: 0px 0px 5px;
+  padding: 0px 20px;
+  color: coral;
+}
+
+.but {
+  border-radius: 15px;
+  background-color: darkcyan;
+  margin: 10px 15px;
+  max-height: 70px;
+  padding: 0;
+}
+
+.but:hover {
+  cursor: pointer;
+  background-color: aquamarine;
+}
+
+.but:hover h4 {
+  color: lightsalmon;
+}
+
+span {
+  color: yellowgreen;
+  float: right;
+  padding: 0px 25px;
+  margin: 5px 0px 0px;
+}
+
+p {
+  padding: 0px 20px;
+  margin: auto;
+}
+
+h4 {
+  padding: 0px 25px;
+  color: bisque;
+  display: inline-block;
+}
+
+/* h4 {
+  color: darkolivegreen;
+  padding: 0px 25px;
+  float: right;
+} */
+
+footer {
+  bottom: 0;
+  text-align: center;
+}
